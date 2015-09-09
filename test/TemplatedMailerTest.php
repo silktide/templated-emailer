@@ -73,7 +73,7 @@ class TemplatedEmailerTest extends PHPUnit_Framework_TestCase
     /**
      * @var string
      */
-    protected $messageBody = "Some message as HTML";
+    protected $messageBody = "<p>Some message as HTML</p>";
 
     /**
      * Setup test
