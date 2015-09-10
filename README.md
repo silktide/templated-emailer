@@ -1,3 +1,7 @@
+[![Code Climate](https://codeclimate.com/github/silktide/templated-emailer/badges/gpa.svg)](https://codeclimate.com/github/silktide/templated-emailer)
+[![Test Coverage](https://codeclimate.com/github/silktide/templated-emailer/badges/coverage.svg)](https://codeclimate.com/github/silktide/templated-emailer/coverage)
+
+
 # Templated emailer
 This library simply ties together Symfony's powerful templating engine with the flexibility of Swiftmailer, allowing you to send templated emails easily.
 

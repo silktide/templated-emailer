@@ -5,4 +5,4 @@ php:
 install: composer install
 script: phpunit --coverage-clover build/logs/clover.xml
 after_script:
-  - CODECLIMATE_REPO_TOKEN="994d49d26b49bc06c85c32c84ece534c44d0bad8ae4b86b54ff87172de256788" vendor/bin/test-reporter --stdout > codeclimate.json
+  - CODECLIMATE_REPO_TOKEN="aca2b01aaa74cb142d590b26c267141eb31c477cad2b6f907e312bf3fc82ce96" vendor/bin/test-reporter --stdout > codeclimate.json
