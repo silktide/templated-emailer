@@ -33,7 +33,7 @@ abstract class TemplatedEmailerFactory
         $mailer = Swift_Mailer::newInstance($transport);
 
         // Create templating system
-        $loader = new FilesystemLoader($basePath);
+        $loader = new FilesystemLoader($basePath.'%name%');
         $engine = new PhpEngine(new TemplateNameParser(), $loader);
 
         // Create our instance
