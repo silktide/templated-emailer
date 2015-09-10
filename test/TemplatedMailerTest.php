@@ -38,7 +38,7 @@ class TemplatedEmailerTest extends PHPUnit_Framework_TestCase
     /**
      * @var string
      */
-    protected $senderEmail = 'mrsgoggins@greendalepostoffice.com';
+    protected $senderEmail = 'mrsgoggins@greendalepo.com';
 
     /**
      * @var string
