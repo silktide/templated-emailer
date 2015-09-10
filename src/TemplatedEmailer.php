@@ -63,7 +63,7 @@ class TemplatedEmailer
      * @param string $templatePath
      * @param mixed $context
      */
-    public function send($recipient, $subject, $templatePath, $context)
+    public function send($recipient, $subject, $templatePath, $context = [])
     {
         if (!isset($this->sender)) {
             throw new RuntimeException("Cannot send message [{$subject}] until sender has been set using setSender().");
