@@ -1,4 +1,7 @@
 ---
+app: templated-emailer
 type: deprecated
 source: open
+language: php
+protected: false
 ...
